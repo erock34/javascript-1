@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Birthday Party List</h1>
+    <form name="birthdayForm" onsubmit="return addAttendee();">
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstname" id="firstName"/>
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastname" id="lastname"/>
+        <button type="submit">Save</button>
+
+    </form>
+    <ul id="attendees"></ul>   
+    <script src="birthday.js"></script>
+</body>
+</html>

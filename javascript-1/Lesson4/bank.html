@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank</title>
+</head>
+<body>
+    <h1 style="text-align:center">Investment Calculator<h1>
+    <div style="text-align:center">
+    <form style="text-align:center" name="moneyForm" onsubmit="return investment();">
+        <div style="text-align:center">
+        <label style="text-align:center" for="amount">Amount</label>
+        <input type="text" name="amount" id="amount"/>
+        </div>
+        <div style="text-align:center">
+        <label for=" interest">Monthly Interest</label>
+        <input style="text-align:center";type="text" name="interest" id="interest"/>
+        </div>
+        <div>
+            <label for="duration">Duration in Months </label>
+            <input style="text-align:center";type="text" name="duration" id="duration"/>
+        </div>
+        <div>
+            <p> Amount </p>
+        </div>
+        <button type="submit">Calculate</button>
+    </div>
+     </form>
+        <ul id="invest"></ul>   
+    <script src="bank.js"></script>
+</body>
+</html>
